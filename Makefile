@@ -38,7 +38,7 @@ container: container_build container_live
 
 # https://docs.docker.com/build/building/multi-platform/
 container_build:
-	$(container) build --platform linux/amd64,linux/arm64 -t $(webserver_image) .
+	$(container) build --platform linux/amd64 -t $(webserver_image) .
 
 container_live:
 	$(container) run -it --rm \
