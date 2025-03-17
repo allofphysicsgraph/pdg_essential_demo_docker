@@ -5,14 +5,20 @@
 <!-- docker -->
 <g id="node1" class="node">
 <title>docker</title>
+<g id="a_node1"><a xlink:href="https://github.com/allofphysicsgraph/pdg_essential_demo_docker" xlink:title="docker">
 <ellipse fill="none" stroke="black" cx="278.03" cy="-234" rx="37.31" ry="18"/>
 <text text-anchor="middle" x="278.03" y="-229.8" font-family="Times,serif" font-size="14.00">docker</text>
+</a>
+</g>
 </g>
 <!-- flask -->
 <g id="node2" class="node">
 <title>flask</title>
+<g id="a_node2"><a xlink:href="https://github.com/allofphysicsgraph/pdg_essential_demo_flask_website" xlink:title="flask">
 <ellipse fill="none" stroke="black" cx="278.03" cy="-162" rx="29.81" ry="18"/>
 <text text-anchor="middle" x="278.03" y="-157.8" font-family="Times,serif" font-size="14.00">flask</text>
+</a>
+</g>
 </g>
 <!-- docker&#45;&gt;flask -->
 <g id="edge1" class="edge">
@@ -23,8 +29,11 @@
 <!-- jinja2 -->
 <g id="node3" class="node">
 <title>jinja2</title>
+<g id="a_node3"><a xlink:href="https://github.com/allofphysicsgraph/pdg_essential_demo_jinja2" xlink:title="jinja2">
 <ellipse fill="none" stroke="black" cx="33.03" cy="-90" rx="33.03" ry="18"/>
 <text text-anchor="middle" x="33.03" y="-85.8" font-family="Times,serif" font-size="14.00">jinja2</text>
+</a>
+</g>
 </g>
 <!-- flask&#45;&gt;jinja2 -->
 <g id="edge2" class="edge">
@@ -47,8 +56,11 @@
 <!-- neo4j -->
 <g id="node5" class="node">
 <title>neo4j</title>
+<g id="a_node5"><a xlink:href="https://github.com/allofphysicsgraph/pdg_essential_demo_neo4j_and_flask" xlink:title="neo4j">
 <ellipse fill="none" stroke="black" cx="240.03" cy="-90" rx="32.49" ry="18"/>
 <text text-anchor="middle" x="240.03" y="-85.8" font-family="Times,serif" font-size="14.00">neo4j</text>
+</a>
+</g>
 </g>
 <!-- flask&#45;&gt;neo4j -->
 <g id="edge4" class="edge">
@@ -59,8 +71,11 @@
 <!-- api -->
 <g id="node6" class="node">
 <title>api</title>
+<g id="a_node6"><a xlink:href="https://github.com/allofphysicsgraph/pdg_essential_demo_api" xlink:title="api">
 <ellipse fill="none" stroke="black" cx="317.03" cy="-90" rx="27" ry="18"/>
 <text text-anchor="middle" x="317.03" y="-85.8" font-family="Times,serif" font-size="14.00">api</text>
+</a>
+</g>
 </g>
 <!-- flask&#45;&gt;api -->
 <g id="edge5" class="edge">
@@ -95,8 +110,11 @@
 <!-- google_auth -->
 <g id="node9" class="node">
 <title>google_auth</title>
+<g id="a_node9"><a xlink:href="https://github.com/allofphysicsgraph/pdg_essential_demo_google_auth" xlink:title="google_auth">
 <ellipse fill="none" stroke="black" cx="392.03" cy="-18" rx="58.77" ry="18"/>
 <text text-anchor="middle" x="392.03" y="-13.8" font-family="Times,serif" font-size="14.00">google_auth</text>
+</a>
+</g>
 </g>
 <!-- https&#45;&gt;google_auth -->
 <g id="edge8" class="edge">

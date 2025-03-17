@@ -1,29 +1,29 @@
 digraph G {
 
-docker [url="https://github.com/allofphysicsgraph/pdg_essential_demo_docker"];
+docker [URL="https://github.com/allofphysicsgraph/pdg_essential_demo_docker"];
 
-flask [url="https://github.com/allofphysicsgraph/pdg_essential_demo_flask_website"];
+flask [URL="https://github.com/allofphysicsgraph/pdg_essential_demo_flask_website"];
 docker -> flask;
 
-jinja2 [url="https://github.com/allofphysicsgraph/pdg_essential_demo_jinja2"];
+jinja2 [URL="https://github.com/allofphysicsgraph/pdg_essential_demo_jinja2"];
 flask -> jinja2;
 
-nginx_http [url=""];
+nginx_http [URL=""];
 flask -> nginx_http;
 
-neo4j [url="https://github.com/allofphysicsgraph/pdg_essential_demo_neo4j_and_flask"];
+neo4j [URL="https://github.com/allofphysicsgraph/pdg_essential_demo_neo4j_and_flask"];
 flask -> neo4j;
 
-api [url="https://github.com/allofphysicsgraph/pdg_essential_demo_api"];
+api [URL="https://github.com/allofphysicsgraph/pdg_essential_demo_api"];
 flask -> api;
 
-https [url=""];
+https [URL=""];
 flask -> https;
 
-nginx_https [url=""];
+nginx_https [URL=""];
 flask -> nginx_https;
 
-google_auth [url="https://github.com/allofphysicsgraph/pdg_essential_demo_google_auth"];
+google_auth [URL="https://github.com/allofphysicsgraph/pdg_essential_demo_google_auth"];
 https -> google_auth;
 
 }
