@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="561pt" height="260pt" viewBox="0.00 0.00 560.67 260.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 256)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-256 556.67,-256 556.67,4 -4,4"/>
+<!-- docker -->
+<g id="node1" class="node">
+<title>docker</title>
+<ellipse fill="none" stroke="black" cx="278.03" cy="-234" rx="37.31" ry="18"/>
+<text text-anchor="middle" x="278.03" y="-229.8" font-family="Times,serif" font-size="14.00">docker</text>
+</g>
+<!-- flask -->
+<g id="node2" class="node">
+<title>flask</title>
+<ellipse fill="none" stroke="black" cx="278.03" cy="-162" rx="29.81" ry="18"/>
+<text text-anchor="middle" x="278.03" y="-157.8" font-family="Times,serif" font-size="14.00">flask</text>
+</g>
+<!-- docker&#45;&gt;flask -->
+<g id="edge1" class="edge">
+<title>docker-&gt;flask</title>
+<path fill="none" stroke="black" d="M278.03,-215.7C278.03,-208.41 278.03,-199.73 278.03,-191.54"/>
+<polygon fill="black" stroke="black" points="281.53,-191.62 278.03,-181.62 274.53,-191.62 281.53,-191.62"/>
+</g>
+<!-- jinja2 -->
+<g id="node3" class="node">
+<title>jinja2</title>
+<ellipse fill="none" stroke="black" cx="33.03" cy="-90" rx="33.03" ry="18"/>
+<text text-anchor="middle" x="33.03" y="-85.8" font-family="Times,serif" font-size="14.00">jinja2</text>
+</g>
+<!-- flask&#45;&gt;jinja2 -->
+<g id="edge2" class="edge">
+<title>flask-&gt;jinja2</title>
+<path fill="none" stroke="black" d="M250.12,-154.92C210.67,-146.05 136.57,-128.39 75.03,-108 73.1,-107.36 71.13,-106.68 69.14,-105.96"/>
+<polygon fill="black" stroke="black" points="70.6,-102.77 60.01,-102.5 68.12,-109.32 70.6,-102.77"/>
+</g>
+<!-- nginx_http -->
+<g id="node4" class="node">
+<title>nginx_http</title>
+<ellipse fill="none" stroke="black" cx="137.03" cy="-90" rx="52.88" ry="18"/>
+<text text-anchor="middle" x="137.03" y="-85.8" font-family="Times,serif" font-size="14.00">nginx_http</text>
+</g>
+<!-- flask&#45;&gt;nginx_http -->
+<g id="edge3" class="edge">
+<title>flask-&gt;nginx_http</title>
+<path fill="none" stroke="black" d="M255.37,-149.75C234.03,-139.16 201.6,-123.06 176.08,-110.39"/>
+<polygon fill="black" stroke="black" points="177.85,-107.36 167.33,-106.04 174.73,-113.63 177.85,-107.36"/>
+</g>
+<!-- neo4j -->
+<g id="node5" class="node">
+<title>neo4j</title>
+<ellipse fill="none" stroke="black" cx="240.03" cy="-90" rx="32.49" ry="18"/>
+<text text-anchor="middle" x="240.03" y="-85.8" font-family="Times,serif" font-size="14.00">neo4j</text>
+</g>
+<!-- flask&#45;&gt;neo4j -->
+<g id="edge4" class="edge">
+<title>flask-&gt;neo4j</title>
+<path fill="none" stroke="black" d="M269.02,-144.41C264.67,-136.39 259.34,-126.57 254.44,-117.54"/>
+<polygon fill="black" stroke="black" points="257.54,-115.92 249.69,-108.8 251.39,-119.26 257.54,-115.92"/>
+</g>
+<!-- api -->
+<g id="node6" class="node">
+<title>api</title>
+<ellipse fill="none" stroke="black" cx="317.03" cy="-90" rx="27" ry="18"/>
+<text text-anchor="middle" x="317.03" y="-85.8" font-family="Times,serif" font-size="14.00">api</text>
+</g>
+<!-- flask&#45;&gt;api -->
+<g id="edge5" class="edge">
+<title>flask-&gt;api</title>
+<path fill="none" stroke="black" d="M287.27,-144.41C291.85,-136.19 297.49,-126.06 302.62,-116.85"/>
+<polygon fill="black" stroke="black" points="305.57,-118.75 307.38,-108.31 299.46,-115.34 305.57,-118.75"/>
+</g>
+<!-- https -->
+<g id="node7" class="node">
+<title>https</title>
+<ellipse fill="none" stroke="black" cx="392.03" cy="-90" rx="29.82" ry="18"/>
+<text text-anchor="middle" x="392.03" y="-85.8" font-family="Times,serif" font-size="14.00">https</text>
+</g>
+<!-- flask&#45;&gt;https -->
+<g id="edge6" class="edge">
+<title>flask-&gt;https</title>
+<path fill="none" stroke="black" d="M298.41,-148.49C316.16,-137.59 342.13,-121.64 362.22,-109.31"/>
+<polygon fill="black" stroke="black" points="363.84,-112.41 370.53,-104.2 360.18,-106.45 363.84,-112.41"/>
+</g>
+<!-- nginx_https -->
+<g id="node8" class="node">
+<title>nginx_https</title>
+<ellipse fill="none" stroke="black" cx="496.03" cy="-90" rx="56.64" ry="18"/>
+<text text-anchor="middle" x="496.03" y="-85.8" font-family="Times,serif" font-size="14.00">nginx_https</text>
+</g>
+<!-- flask&#45;&gt;nginx_https -->
+<g id="edge7" class="edge">
+<title>flask-&gt;nginx_https</title>
+<path fill="none" stroke="black" d="M303.89,-152.7C338.93,-141.44 402.19,-121.13 446.52,-106.9"/>
+<polygon fill="black" stroke="black" points="447.46,-110.27 455.91,-103.88 445.32,-103.61 447.46,-110.27"/>
+</g>
+<!-- google_auth -->
+<g id="node9" class="node">
+<title>google_auth</title>
+<ellipse fill="none" stroke="black" cx="392.03" cy="-18" rx="58.77" ry="18"/>
+<text text-anchor="middle" x="392.03" y="-13.8" font-family="Times,serif" font-size="14.00">google_auth</text>
+</g>
+<!-- https&#45;&gt;google_auth -->
+<g id="edge8" class="edge">
+<title>https-&gt;google_auth</title>
+<path fill="none" stroke="black" d="M392.03,-71.7C392.03,-64.41 392.03,-55.73 392.03,-47.54"/>
+<polygon fill="black" stroke="black" points="395.53,-47.62 392.03,-37.62 388.53,-47.62 395.53,-47.62"/>
+</g>
+</g>
+</svg>

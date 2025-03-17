@@ -1,0 +1,29 @@
+digraph G {
+
+docker [url="https://github.com/allofphysicsgraph/pdg_essential_demo_docker"];
+
+flask [url="https://github.com/allofphysicsgraph/pdg_essential_demo_flask_website"];
+docker -> flask;
+
+jinja2 [url="https://github.com/allofphysicsgraph/pdg_essential_demo_jinja2"];
+flask -> jinja2;
+
+nginx_http [url=""];
+flask -> nginx_http;
+
+neo4j [url="https://github.com/allofphysicsgraph/pdg_essential_demo_neo4j_and_flask"];
+flask -> neo4j;
+
+api [url="https://github.com/allofphysicsgraph/pdg_essential_demo_api"];
+flask -> api;
+
+https [url=""];
+flask -> https;
+
+nginx_https [url=""];
+flask -> nginx_https;
+
+google_auth [url="https://github.com/allofphysicsgraph/pdg_essential_demo_google_auth"];
+https -> google_auth;
+
+}
