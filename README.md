@@ -15,7 +15,12 @@ which puts you inside a Docker container.
 
 This demo repo is part of a sequence of tutorials
 
-![sequence of demos](https://raw.githubusercontent.com/allofphysicsgraph/pdg_essential_demo_docker/refs/heads/main/tutorials_dependency_graph.svg)
+![sequence of demos](https://raw.githubusercontent.com/allofphysicsgraph/pdg_essential_demo_docker/refs/heads/main/tutorials_dependency_graph.svg?sanitize=true)
 
+![sequence of demos](https://raw.githubusercontent.com/allofphysicsgraph/pdg_essential_demo_docker/refs/heads/main/tutorials_dependency_graph.svg?sanitize=false)
+
+<img src="https://raw.githubusercontent.com/allofphysicsgraph/pdg_essential_demo_docker/refs/heads/main/tutorials_dependency_graph.svg">
+
+<iframe src="https://raw.githubusercontent.com/allofphysicsgraph/pdg_essential_demo_docker/refs/heads/main/tutorials_dependency_graph.svg"></iframe>
 
 ![alt text](https://github.com/allofphysicsgraph/pdg_essential_demo_docker/blob/main/tutorials_dependency_graph.svg?raw=true)
