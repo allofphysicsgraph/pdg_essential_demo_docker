@@ -10,3 +10,9 @@ To use,
 make container
 ```
 which puts you inside a Docker container.
+
+# Guide
+
+This demo repo is part of a sequence of tutorials
+
+![sequence of demos]([http://url/to/img.png](https://raw.githubusercontent.com/allofphysicsgraph/pdg_essential_demo_docker/refs/heads/main/tutorials_dependency_graph.svg))
