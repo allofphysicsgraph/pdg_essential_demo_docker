@@ -15,4 +15,7 @@ which puts you inside a Docker container.
 
 This demo repo is part of a sequence of tutorials
 
-![sequence of demos]([http://url/to/img.png](https://raw.githubusercontent.com/allofphysicsgraph/pdg_essential_demo_docker/refs/heads/main/tutorials_dependency_graph.svg))
+![sequence of demos](https://raw.githubusercontent.com/allofphysicsgraph/pdg_essential_demo_docker/refs/heads/main/tutorials_dependency_graph.svg)
+
+
+![alt text](https://github.com/allofphysicsgraph/pdg_essential_demo_docker/blob/main/tutorials_dependency_graph.svg?raw=true)
