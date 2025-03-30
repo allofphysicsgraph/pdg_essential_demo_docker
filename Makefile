@@ -25,7 +25,9 @@ help:
 container: container_build container_live
 
 container_build:
-	$(container) build --platform linux/amd64 -t $(webserver_image) .
+	if (! $(container) stats --no-stream ); then  open /Applications/Docker.app; while (! $(container) stats --no-stream ); do    echo "Waiting for Docker to launch...";  sleep 1; done; fi;
+#	$(container) build --platform linux/amd64 -t $(webserver_image) .
+	$(container) build -t $(webserver_image) .
 
 container_live:
 	$(container) run -it --rm \
