@@ -21,7 +21,8 @@ https [URL=""];
 flask -> https;
 
 nginx_https [URL=""];
-flask -> nginx_https;
+nginx_http -> nginx_https;
+https -> nginx_https;
 
 google_auth [URL="https://github.com/allofphysicsgraph/pdg_essential_demo_google_auth"];
 https -> google_auth;
