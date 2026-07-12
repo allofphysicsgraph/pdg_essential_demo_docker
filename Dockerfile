@@ -6,7 +6,7 @@
 
 # https://docs.docker.com/engine/reference/builder/#from
 # https://github.com/phusion/baseimage-docker
-FROM phusion/baseimage:focal-1.1.0
+FROM phusion/baseimage:jammy-1.0.4
 
 # TODO: don't be root!
 
