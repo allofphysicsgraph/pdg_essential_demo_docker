@@ -19,6 +19,8 @@ make container
 ```
 which puts you inside a Docker container. That's it! The purpose of this is to validate you are able to run a container. The next demos in the sequence then leverage containers.
 
+The next demo to explore is <https://github.com/allofphysicsgraph/pdg_essential_demo_flask_website>
+
 <HR>
 
 That might be too concise, so the next sections go into more detail. 
